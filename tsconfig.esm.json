@@ -4,6 +4,7 @@
     "module": "esnext",
     "target": "es2015",
     "outDir": "./esm",
+    "declarationDir": "./types",
     "declaration": true
   }
 }

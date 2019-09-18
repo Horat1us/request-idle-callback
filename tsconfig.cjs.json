@@ -4,6 +4,6 @@
     "module": "commonjs",
     "target": "es3",
     "outDir": "./",
-    "declaration": true
+    "declaration": false
   }
 }
