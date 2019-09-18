@@ -1,0 +1,41 @@
+{
+  "name": "@horat1us/request-idle-callback",
+  "version": "1.0.0",
+  "description": "Request Idle Callback Polyfill",
+  "main": "index.js",
+  "module": "./esm/index.js",
+  "types": "./esm/index.d.ts",
+  "scripts": {
+    "build:clean": "rm -rf ./*.js ./*.d.ts ./esm",
+    "build:cjs": "tsc --project tsconfig.cjs.json",
+    "build:esm": "tsc --project tsconfig.esm.json",
+    "build": "npm run build:clean && npm run build:cjs && npm run build:esm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Horat1us/request-idle-callback.git"
+  },
+  "keywords": [
+    "request",
+    "idle",
+    "callback",
+    "idlecallback",
+    "requestidlecallback",
+    "cancelidlecallback",
+    "idle",
+    "polyfill"
+  ],
+  "author": "Alexander <horat1us>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Horat1us/request-idle-callback/issues"
+  },
+  "homepage": "https://github.com/Horat1us/request-idle-callback#readme",
+  "devDependencies": {
+    "@types/node": "^12.7.5",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "globalthis": "^1.0.0"
+  }
+}
