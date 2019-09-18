@@ -1,6 +1,6 @@
 {
   "name": "@horat1us/request-idle-callback",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Request Idle Callback Polyfill",
   "main": "index.js",
   "module": "./esm/index.js",
