@@ -50,7 +50,7 @@ You can also use [IdlePromise](./src/IdlePromise.ts).
 import { IdlePromise, IdlePromiseCancel } from "./src/IdlePromise";
 
 // Create Promise
-const promise = new IdlePromise({
+const promise = IdlePromise({
     timeout: 5000,
 });
 
@@ -61,7 +61,7 @@ promise
         console.log(deadline)
     })
     .catch((error) => {
-        if (error instanceof IdlePromiseCancel) {
+        if (error.message === "Idle Promise Cancel") {
             // handle cancellation
             return;
         }
