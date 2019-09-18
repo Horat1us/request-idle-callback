@@ -25,6 +25,11 @@
     "idle",
     "polyfill"
   ],
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "esm"
+  ],
   "author": "Alexander <horat1us>",
   "license": "MIT",
   "bugs": {
